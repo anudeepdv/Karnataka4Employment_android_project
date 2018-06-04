@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "787147667357",
+    "firebase_url": "https://karnatakaemployment.firebaseio.com",
+    "project_id": "karnatakaemployment",
+    "storage_bucket": "karnatakaemployment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787147667357:android:d3da7af0fdfd74a9",
+        "android_client_info": {
+          "package_name": "com.jobemployement.karnatakaemployment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787147667357-sq46n4557oma65ljh71e6vm1mrrdpn74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobemployement.karnatakaemployment",
+            "certificate_hash": "f737a12b5b9a78f91214657d0cbd9e302d2cb6ec"
+          }
+        },
+        {
+          "client_id": "787147667357-6gd074dmsiep1jig9a8u4a0shgppcj6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgLwSbvsaAXVvJCKFn4zW4tf4pGQ9Jmts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787147667357-6gd074dmsiep1jig9a8u4a0shgppcj6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

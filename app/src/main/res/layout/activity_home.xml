@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobemployement.karnatakaemployment.homeActivity"
+    android:background="#ffffff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img_banner"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="2dp"
+
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <Button
+        android:id="@+id/btn_know"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/knowmore"
+        android:background="#00c0d2"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="8dp">
+        <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" />-->
+
+        <Button
+            android:id="@+id/btn_scholarships"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="#ffffff"
+            android:text="@string/scholorships"
+            android:textSize="16sp"
+            android:background="#007225"/>
+        <Button
+
+            android:id="@+id/btnjob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="@string/jobs"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:background="#007225"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/helpline"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="16sp"
+            android:background="#007225"
+            android:textColor="#ffffff"/>
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/img_news"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_disc"
+        android:layout_width="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#427a92"
+        android:background="#ffffff"
+        android:text="@string/discuss"
+        android:textSize="13sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:paddingTop="4dp"
+        android:id="@+id/btn_join"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffff"
+        android:text="@string/join"
+        android:textColor="#427a92"
+        android:textSize="13sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/btn_mynews"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="ಸದಸ್ಯರು/ಕಾರ್ಯಕರ್ತರು\nMember/Volunteer"
+        android:background="#ffffff"
+        android:textSize="13sp"
+        android:textColor="#427a92"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:id="@+id/img_bottomleft"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="ನಿಮ್ಮ ಎಂ.ಎಲ್.ಎ. ಗೆ ಕೇಳಿ\nAsk Your MLA"
+        android:background="#ffffff"
+        android:textSize="13sp"
+        android:textColor="#427a92"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#8f9490"
+        android:layout_marginTop="20dp">
+
+
+        <ImageButton
+            android:id="@+id/img_bottomright"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#1E9Ed6"
+            android:scaleType="fitXY"
+
+            app:srcCompat="@drawable/poster" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp">
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1" />-->
+
+        <Button
+            android:id="@+id/btn_youth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="3dp"
+
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="#ffffff"
+            android:text="Youth Manifesto\nಯುವಜನ ಪ್ರಣಾಳಿಕೆ"
+            android:textSize="14sp"
+            android:background="#007225"/>
+        <Button
+
+            android:id="@+id/btn_contribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:paddingTop="3dp"
+
+            android:text="Contribute\nದೇಣಿಗೆ"
+            android:textColor="#ffffff"
+            android:layout_marginRight="12dp"
+            android:background="#007225"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="5dp"
+
+            android:textSize="14sp"
+            android:background="#007225"
+            android:textColor="#ffffff"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

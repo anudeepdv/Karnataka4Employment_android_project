@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobemployement.karnatakaemployment.Login2Activity"
+    android:background="@drawable/poster1"
+
+
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_weight="0.44"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:weightSum="3.0">
+
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+
+            android:layout_marginTop="5dp"
+            android:background="#5DA400"
+            android:text="Create My Job Account\nನಿಮ್ಮ ಮೈಜಾಬ್ ಅಕೌಂಟ್ ತೆರೆಯಿರಿ"
+
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="15dp"
+            android:background="#5DA400"
+            android:text="GO to Homepage \n ಮುಖಪುಟಕ್ಕೆ ಹೋಗಲು"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KarnatakaEmployment</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="hint_phone_number">Enter Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+
+    <string name="linktosite">
+        <a href="www.facebook.com/voteforemployment">Join Us at www.facebook.com/voteforemployment</a>
+    </string>
+
+    <string name="entrehead">Enterprenuership\nಸ್ವಉದ್ಯೋಗಗಳು</string>
+    <string name="existentre">For Existing Enterprise please click the following/\nಈಗಾಗಲೇ ಸ್ವ-ಉದ್ಯೋಗ ಮಾಡುತ್ತಿದ್ದರೆ, ಇಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ:</string>
+
+    <string name="newentre">For new Enterprise please click the following/\nಸ್ವ-ಉದ್ಯೋಗ ಮಾಡುವ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದರೆ: </string>
+
+    <string name="mycon">To get info regularly\nನಿರಂತರ ಮಾಹಿತಿ ಪಡೆಯಲು</string>
+    <string name="scholorships">Scholarships\nಸ್ಕಾಲರ್ ಶಿಪ್ ಗಳು</string>
+    <string name="helpline">Helpline\nಹೆಲ್ಪ್ ಲೈನ್</string>
+    <string name="helpline1">For Students - General, Technical and Professional\nವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ - ಜನರಲ್, ತಾಂತ್ರಿಕ &amp; ವೃತ್ತಿಪರ:</string>
+    <string name="helpline2">For Job aspirants ಉದ್ಯೋಗಾಕಾಂಕ್ಷಿಗಳು:</string>
+    <string name="helpline3">For Self-Employed/\nಸ್ವ-ಉದ್ಯೋಗ ಮಾಡಬಯಸುವವರು:</string>
+    <string name="home">Home\nಮುಖಪುಟ</string>
+    <string name="jobs">Jobs\nಉದ್ಯೋಗಗಳು</string>
+    <string name="entre">Entreprenuerships\nಸ್ವ-ಉದ್ಯೋಗ</string>
+    <string name="myinfo">My Contact Info\nನನ್ನ ಸಂಪರ್ಕ ಮಾಹಿತಿ</string>
+    <string name="discuss">ನನ್ನ ಅನಿಸಿಕೆ/ನನ್ನ ಸಮಸ್ಯೆ \nMy Views/Problems</string>
+    <string name="mycv">My CV\nನನ್ನ ಬಯೋಡಾಟಾ</string>
+    <string name="mynews">My News\n</string>
+    <string name="contact">Contact Us\nನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="join">ಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ \nSkill development</string>
+    <string name="signout">Sign Out\n</string>
+    <string name="knowmore">Know More ಸರ್ಕಾರಕ್ಕೆ ಸಲ್ಲಿಸಿದ ಮನವಿ ಪತ್ರ ಓದಿರಿ</string>
+
+
+
+
+
+</resources>

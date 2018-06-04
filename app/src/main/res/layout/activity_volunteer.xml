@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobemployement.karnatakaemployment.VolunteerActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#d2d3d5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Become a member/Volunteer\nಈ ಆಂದೋಲನದ ಸದಸ್ಯರಾಗಿರಿ/ಕಾರ್ಯಕರ್ತರಾಗಿರಿ"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="#010048"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#00321B"
+            android:text="Dear Friends,\nThis is a constructive movement. Youth of this nation have to participate in nation building which happens through doing a job and also through such movements. You can choose to do only a job which helps you and also enables you to participate in nation building. But you can also become a leader who brings change in this society by choosing to become a volunteer also. The choice is yours.\n\t\t\t If you can give a little time regularly or help the movement with your special skill you can be a volunteer. If you think, you can’t give much time but you are with this cause and wish to propagate this cause wherever you are and also like to participate in the youth assembly on Feb 4th 2018, then you can opt to become a member. Please fill the form accordingly.
+"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#00321B"
+            android:text="ಸ್ನೇಹಿತರೇ,\nಇದೊಂದು ರಚನಾತ್ಮಕ ಆಂದೋಲನ. ಈ ದೇಶದ ಯುವಜನರು ರಾಷ್ಟ್ರನಿರ್ಮಾಣದಲ್ಲಿ ಎರಡು ರೀತಿಯಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳಬಹುದು. ಒಂದು, ಯಾವುದಾದರೂ ಉದ್ಯೋಗವನ್ನು ಮಾಡುವುದರ ಮೂಲಕ; ಎರಡು ಇಂತಹ ಆಂದೋಲನದಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳುವುದರ ಮೂಲಕ. ಒಂದು ಉದ್ಯೋಗವನ್ನು ಮಾಡುವುದು ನಿಮಗೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ನೀವು ರಾಷ್ಟ್ರ ನಿರ್ಮಾಣದಲ್ಲಿ ತೊಡಗಿಕೊಳ್ಳಲೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಆದರೆ ಕಾರ್ಯಕರ್ತರಾಗುವ ಮೂಲಕ, ಈ ಸಮಾಜದಲ್ಲಿ ಬದಲಾವಣೆ ತರುವ ನಾಯಕ/ನಾಯಕಿಯಾಗುವುದು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ಆಯ್ಕೆ ನಿಮ್ಮದು.\n\t\t\t ನೀವು ನಿರಂತರವಾಗಿ ಸ್ವಲ್ಪ ಸಮಯ ಕೊಡುವುದಾದರೆ ಅಥವಾ ನಿಮಗಿರುವ ವಿಶೇಷ ಕೌಶಲ್ಯದ ಮೂಲಕ ನೆರವಾಗುವುದಾದಲ್ಲಿ ನೀವು ಕಾರ್ಯಕರ್ತರಾಗಬಲ್ಲಿರಿ ಎಂದರ್ಥ. ನೀವು ಅಷ್ಟು ಸಮಯ ಕೊಡುವುದು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ, ಆದರೆ ಈ ಆಂದೋಲನದ ಕುರಿತು ನೀವೆಲ್ಲಿದ್ದೀರೋ ಅಲ್ಲಿ ಇನ್ನಷ್ಟು ಜನರಿಗೆ ತಿಳಿಸುವುದಾದಲ್ಲಿ, ಈ ಆಂದೋಲನದ ಆಶಯವನ್ನು ಒಪ್ಪುವುದಾದಲ್ಲಿ ಮತ್ತು ಫೆ.4, 2018ರ ಯುವ ಅಧಿವೇಶನದಲ್ಲಿ ಪಾಲ್ಗೊಳ್ಳುವುದಾದಲ್ಲಿ, ನೀವು ಸದಸ್ಯರಾಗಬಹುದು. ನಿಮ್ಮ ಆಯ್ಕೆಗೆ ತಕ್ಕಂತೆ ಫಾರಂಅನ್ನು ತುಂಬಲು ಕೆಳಗಿನ ಲಿಂಕನ್ನು ಕ್ಲಿಕ್ಕಿಸಿ.
+"
+            android:textSize="20sp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginTop="50dp"
+            android:autoLink="all"
+            android:clickable="true"
+
+            android:text="https://goo.gl/forms/mvYsMhxlmZqXV8F73"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</ScrollView>
+
+    <!--Developed by Anudeep and Vijay-->
+    <!--Under the guidance of Prof.Nagegowda, PES University-->

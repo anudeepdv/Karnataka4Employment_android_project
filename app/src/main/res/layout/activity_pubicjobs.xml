@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobemployement.karnatakaemployment.PubicjobsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#eee">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="105dp"
+                android:text="JOBS\nಉದ್ಯೋಗಗಳು"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#eee"
+            android:layout_marginLeft="15dp">
+
+            <Button
+                android:id="@+id/btn_govt"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+
+                android:text="State\nGovt"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btn_public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#1abb9c"
+                android:paddingLeft="12dp"
+                android:text="Public\nSector"
+                android:textColor="#010048"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_private"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Private\nJobs"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_students"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="CENTRAL GOVT"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/btn_technical"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="OTHER JOBS"
+                android:textSize="27sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="0.05"
+                android:text="PUBLIC SECTOR"
+                android:textAlignment="center"
+
+
+                android:textColor="#010048"
+                android:textSize="26sp" />
+
+
+            <ImageButton
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="380dp" />
+            <TextView
+                android:id="@+id/tv_pub1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:autoLink="all"
+                android:background="#D2d3d5"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/tv_pub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:autoLink="all"
+                android:background="#D2d3d5"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/tv_pub3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:paddingLeft="20dp"
+                android:autoLink="all"
+                android:paddingRight="10dp"
+
+                android:background="#D2d3d5"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/tv_pub4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:background="#D2d3d5"
+                android:textColor="#00321B"
+                android:autoLink="all"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/img5"
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/tv_pub5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.32"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:background="#D2d3d5"
+                android:autoLink="all"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:id="@+id/pub1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginTop="20dp"
+                android:height="40dp" />
+
+
+            <TextView
+                android:id="@+id/publ1"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/pub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ2"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#00321B"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/pub3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:id="@+id/pub4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ4"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/pub5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ5"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/pub6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ6"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/pub7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ7"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/pub8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ8"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/pub9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ9"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:id="@+id/pub10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/publ10"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="For more information about public sector jobs please visit the below link"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:height="40dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:text="k4epublicjobs.blogspot.com"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#f25f10"
+                android:textSize="18sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="back to home->"
+                android:textColor="#010048"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+    <!--Developed by Anudeep and Vijay-->
+    <!--Under the guidance of Prof.Nagegowda, PES University-->

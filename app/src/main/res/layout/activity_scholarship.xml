@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobemployement.karnatakaemployment.ScholarshipActivity"
+    android:background="#c0d6e4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/scholorships"
+            android:textSize="36sp"
+            android:textColor="#010048"
+
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/img_scholar"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:background="#D2D3D5" />
+
+        <TextView
+            android:id="@+id/tv_scholar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D2D3D5"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="#00321B" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:height="40dp"
+            android:textSize="16dp"
+            android:text="For more information about Scholarships by state Government please visit the below link" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            android:text="https://k4escholarships.blogspot.com/2017/10/scholarships1.html"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="#f25f10"
+            android:textSize="18sp" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="For more information about Scholarships by central Govt please visit the below link"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:height="40dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            android:text="https://k4escholarships.blogspot.com/2017/10/scholarships2.html"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="#f25f10"
+            android:textSize="18sp" />
+
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="For more information about Scholarships by private agencies please visit the below link"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:height="40dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            android:text="https://k4escholarships.blogspot.com/2017/10/scholarships3.html"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="#f25f10"
+            android:textSize="18sp" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="For more information about Scholarships by other sources please visit the below link"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:height="40dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"
+            android:text="https://k4escholarships.blogspot.com/2017/10/scholarships4.html"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="#f25f10"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+    <!--Developed by Anudeep and Vijay-->
+    <!--Under the guidance of Prof.Nagegowda, PES University-->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0d6e4"
+    android:orientation="vertical"
+    tools:context="com.jobemployement.karnatakaemployment.Contribute">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:textAlignment="center"
+        android:text="Contribute ದೇಣಿಗೆ"
+        android:textColor="#010048"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:autoLink="phone"
+        android:background="#D2d3d5"
+
+        android:textColor="#00321B"
+        android:textSize="18sp" />
+
+</LinearLayout>

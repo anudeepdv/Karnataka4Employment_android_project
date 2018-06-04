@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D3D5"
+    tools:context="com.jobemployement.karnatakaemployment.JoinActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill development\nಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ"
+        android:textSize="36sp"
+        android:textColor="#010048"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have enrolled your name for skill development schemes of central or state
+government, please click the link below and fill the details.\n\n
+ನೀವು ಕೇಂದ್ರ ಅಥವಾ ರಾಜ್ಯ ಸರ್ಕಾರದ ಕೌಶಲ್ಯ ಅಭಿವೃದ್ಧಿ ಯೋಜನೆಗಳಿಗೆ ನೋಂದಾಯಿಸಿದ್ದರೆ, ಕೆಳಗಿನ ಲಿಂಕ್ ಮೇಲೆ ಕ್ಲಿಕ್
+ಮಾಡಿ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ಕೊಡಿ."
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#00321B"/>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:clickable="true"
+
+        android:text="https://goo.gl/forms/WuJeVFUoKkSVHI5h2"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
+
+    <!--Developed by Anudeep and Vijay-->
+    <!--Under the guidance of Prof.Nagegowda, PES University-->

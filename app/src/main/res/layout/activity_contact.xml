@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D3D5"
+    android:orientation="vertical"
+    tools:context="com.jobemployement.karnatakaemployment.ContactActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Contact Us"
+        android:textColor="#010048"
+        android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tv_emailcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:background="#D2D3D5"
+            android:text="Email : karnatakaforemployment@gmail.com"
+            android:textColor="#00321B"
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autoLink="phone"
+        android:layout_marginTop="40dp"
+        android:background="#D2D3D5"
+        android:text="Phone : +919606195831"
+        android:textColor="#00321B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#D2D3D5"
+        android:text="Address : #1448 Pipeline Road, Vijaynagar, Near Hosahalli Metro, Bangalore - 560040"
+        android:textColor="#00321B"
+        android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/fb"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#D2D3D5"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="www.facebook.com/karnataka4employment"
+        android:textColor="#f25f10"
+        android:textSize="20sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/youtu"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#D2D3D5"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="www.youtube.com"
+            android:textColor="#f25f10"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/phn"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:autoLink="phone"
+        android:text="To Join Us, Give us a Missed Call on \n 08033509191"
+        android:textColor="#f25f10"
+        android:background="#D2D3D5"
+        android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:autoLink="all"
+
+            android:text="Click to dowload the Youth Manifesto PDF: \nhttps://drive.google.com/open?id=1Xtc-PcN-BC9bJVdZHAzNKGHlzsKklHRJ"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#D2D3D5"
+            android:text="*Please enable making calls permissions from settings to make calls or send sms directly"
+            android:textColor="#010048"
+            android:textSize="12sp" />
+   </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+<!--Developed by Anudeep and Vijay-->
+<!--Under the guidance of Prof.Nagegowda, PES University-->

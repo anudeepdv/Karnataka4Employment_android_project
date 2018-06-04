@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D3D5"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.jobemployement.karnatakaemployment.HelplineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:text="@string/helpline"
+
+            android:textColor="#010048"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+
+            android:background="#D2D3D5"
+            android:textColor="#f25f10"
+
+
+            android:text="@string/helpline1" />
+
+        <TextView
+            android:id="@+id/tv_ph1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.08"
+            android:background="#D2D3D5"
+            android:autoLink="phone"
+            android:text="Call : +919606195832"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/tv_sms1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.08"
+                android:background="#D2D3D5"
+                android:text="SMS : "
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#D2D3D5"
+            android:text="@string/helpline2"
+            android:textColor="#f25f10"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_ph2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16"
+            android:layout_marginTop="10dp"
+            android:background="#D2D3D5"
+            android:textColor="#000000"
+            android:autoLink="phone"
+            android:text="CALL:+919606195833"
+            android:textSize="28sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/tv_sms2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.08"
+                android:background="#D2D3D5"
+                android:text="SMS : "
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.13"
+            android:background="#D2D3D5"
+            android:text="For self employment seekers and Those without job security. \nಸ್ವ-ಉದ್ಯೋಗ ಮಾಡಬಯಸುವವರು ಮತ್ತು ಗುತ್ತಿಗೆ/ದಿನಗೂಲಿ ಇತ್ಯಾದಿ ಅಭದ್ರ ನೌಕರಿಯಲ್ಲಿರುವವರು."
+            android:textColor="#f25f10"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_ph3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:layout_marginTop="10dp"
+            android:background="#D2D3D5"
+            android:textColor="#000000"
+            android:autoLink="phone"
+
+            android:text="CALL:+919606195834"
+            android:textSize="28sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/tv_sms3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.08"
+                android:background="#D2D3D5"
+                android:text="SMS : "
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#D2D3D5"
+            android:text="*Please enable making calls permissions from settings to make calls or send sms directly"
+            android:textColor="#010048"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+    <!--Developed by Anudeep and Vijay-->
+    <!--Under the guidance of Prof.Nagegowda, PES University-->
